@@ -1,0 +1,78 @@
+html {
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+
+
+
+
+
+.wrapper {
+  max-width: 64rem;
+  margin: 0 auto;
+}
+
+/* Desktop Navigation */
+.desktop {
+  height: 4rem;
+  max-width: 100%;
+  min-width: 38rem;
+  padding: 0 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.desktop li {
+  display: inline-block;
+  list-style: none;
+  margin-left: 1rem;
+}
+
+.desktop img {
+  height: 2rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+#academy {
+  color: grey;
+}
+
+.mobile {
+  display: none;
+}
+
+@media only screen and (max-width:480px){
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+    height: 3rem;
+  }
+
+  .mobile ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 30rem;
+    height: 100%;
+    margin: 0 5% 0 5%;
+  }
+
+  .mobile li {
+    display: inline-block;
+    max-height: 2rem;
+  }
+
+}
