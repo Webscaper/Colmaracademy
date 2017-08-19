@@ -23,16 +23,16 @@
       </nav>
       <nav class="mobile">
         <ul>
-          <li><a href="#"><img src="resources/images/ic-logo.svg" alt="lion logo"></a></li>
-          <li><a href="#"><img src="resources/images/ic-on-campus.svg" alt="school chair"></a></li>
-          <li><a href="#"><img src="resources/images/ic-online.svg" alt="computer monitor"></a></li>
-          <li><a href="#"><img src="resources/images/ic-login.svg" alt="a person"></a></li>
+          <a href="#"><li><img src="resources/images/ic-logo.svg" alt="lion logo"></li></a>
+          <a href="#"><li><img src="resources/images/ic-on-campus.svg" alt="school chair"></li></a>
+          <a href="#"><li><img src="resources/images/ic-online.svg" alt="computer monitor"></li></a>
+          <a href="#"><li><img src="resources/images/ic-login.svg" alt="a person"></li></a>
         </ul>
       </nav>
 
       <!-- Header -->
       <header class="container bg-gray">
-        <div class="image-container">
+        <div class="media-container">
           <img src="resources/images/banner.jpg" alt="students studying">
         </div>
         <div class="content-container">
@@ -44,8 +44,7 @@
 
       <!-- Information -->
       <div class="container">
-
-        <div class="image-container">
+        <div class="media-container information">
             <img src="resources/images/information-main.jpg" alt="man reading a book">
             <div class="image-description">
               <h2>It doesn't hurt to keep practicing</h2>
@@ -54,12 +53,11 @@
               <p>Emanuel, Sr Strategist at Hiring.com</p>
             </div>
           </div>
-
-
        <div class="information-container">
          <div class="box">
            <div class="img-box">
-             <img src="resources/images/information-orientation.jpg" alt="birdseye view of students">
+             <img class="tag-desktop" src="resources/images/information-orientation.jpg" alt="birdseye view of students">
+             <img class="tag-mobile" src="resources/images/information-orientation-mobile.jpg" alt="birdseye view of students">
            </div>
            <div class="desc">
              <h3>Orientation date</h3>
@@ -67,10 +65,10 @@
              <a href="#">Read more</a>
            </div>
          </div>
-
          <div class="box">
            <div class="img-box">
-             <img src="resources/images/information-campus.jpg" alt="students at the table studying">
+             <img class="tag-desktop" src="resources/images/information-campus.jpg" alt="students at the table studying">
+             <img class="tag-mobile" src="resources/images/information-campus-mobile.jpg" alt="students at the table studying">
            </div>
            <div class="desc">
              <h3>Our campus</h3>
@@ -78,10 +76,10 @@
              <a href="#">Read more</a>
            </div>
          </div>
-
          <div class="box">
            <div class="img-box">
-             <img src="resources/images/information-guest-lecture.jpg" alt="old fart hipster">
+             <img class="tag-desktop" src="resources/images/information-guest-lecture.jpg" alt="old fart hipster">
+             <img class="tag-mobile" src="resources/images/information-guest-lecture-mobile.jpg" alt="old fart hipster">
            </div>
            <div class="desc">
              <h3>Our guest lecture</h3>
@@ -89,11 +87,130 @@
              <a href="#">Read more</a>
            </div>
          </div>
-
        </div>
      </div>
 
+     <!-- Start Learning -->
+     <div class="container learning">
+       <div class="grid-container">
+         <h2>Start Learning</h2>
+         <div class="grid-box">
+           <div class="grid-img">
+             <img src="resources/images/course-software.jpg" alt="Macintosh computer">
+           </div>
+           <div class="grid-desc">
+             <h3>Software engineering</h3>
+             <p>COURSES</p>
+             <br />
+             <p>Web Development, Mobile Development, iOT, APIs</p>
+           </div>
+         </div>
+         <div class="grid-box">
+           <div class="grid-img">
+             <img src="resources/images/course-computer-art.jpg" alt="Smartphone">
+           </div>
+           <div class="grid-desc">
+             <h3>Computer Art</h3>
+             <p>COURSES</p>
+             <br />
+             <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
+           </div>
+         </div>
+         <div class="grid-box">
+           <div class="grid-img">
+             <img src="resources/images/course-design.jpg" alt="vintage camera">
+           </div>
+           <div class="grid-desc">
+             <h3>Design</h3>
+             <p>COURSES</p>
+             <br />
+             <p>User Experience Design, User Research, Visual Design</p>
+           </div>
+         </div>
+         <div class="grid-box">
+           <div class="grid-img">
+             <img src="resources/images/course-data.jpg" alt="laptop">
+           </div>
+           <div class="grid-desc">
+             <h3>Data</h3>
+             <p>COURSES</p>
+             <br />
+             <p>Data Science, Big Data, SQL, Data Visualization</p>
+           </div>
+         </div>
+         <div class="grid-box">
+           <div class="grid-img">
+             <img src="resources/images/course-business.jpg" alt="chess pieces">
+           </div>
+           <div class="grid-desc">
+             <h3>Business</h3>
+             <p>COURSES</p>
+             <br />
+             <p>Product Development, Business Development, Startup</p>
+           </div>
+         </div>
+         <div class="grid-box">
+           <div class="grid-img">
+             <img src="resources/images/course-marketing.jpg" alt="apple watch">
+           </div>
+           <div class="grid-desc">
+             <h3>Marketing</h3>
+             <p>COURSES</p>
+             <br />
+             <p>Analytics, Content Marketing, Mobile Marketing</p>
+           </div>
+         </div>
+       </div>
+       <h2 id="learning-headline">Start Learning</h2>
+       <ul class="learning-list">
+         <li><a href="#">Software engineering</a></li>
+         <li><a href="#">Computer art</a></li>
+         <li><a href="#">Design</a></li>
+         <li><a href="#">Data</a></li>
+         <li><a href="#">Business</a></li>
+         <li><a href="#">Marketing</a></li>
+       </ul>
+     </div>
 
-    </div>
+     <!-- Thesis Exhibit -->
+     <h2 id="thesis-headline">Thesis Exhibit</h2>
+     <div class="container">
+       <div class="media-container">
+         <video autoplay loop>
+             <source src="resources/videos/thesis.mp4" type="video/mp4">
+             <!-- Incase browser does not support video -->
+             Your browser does not support video tag.
+         </video>
+           <div class="image-description">
+             <h2>Reimagine urban</h2>
+             <p>"Nam vitae efficitur neque, sit amet facilisis diam. Phasellus mi eros, facilisis vel rhoncus et, vestibulum in tellus. Donec vel rhoncus sem. Ut tristique a ligula eget elementum. Curabitur feugiat interdum ipsum, non dignissim elit tempus a."</p>
+           </div>
+         </div>
+         <div class="thesis">
+           <div class="box">
+             <div class="img-box">
+               <img class="tag-desktop" src="resources/images/thesis-fisma.jpg" alt="student at the table studying">
+             </div>
+             <div class="desc">
+               <h3>Fisma: Design and Prototype</h3>
+               <p>Designer showcase of new prototype product</p>
+             </div>
+           </div>
+           <div class="box">
+             <div class="img-box">
+               <img class="tag-desktop" src="resources/images/thesis-now-and-then.jpg" alt="empire state building NY">
+             </div>
+             <div class="desc">
+               <h3>Now and then</h3>
+               <p>Research study about New York</p>
+             </div>
+           </div>
+         </div>
+     </div>
+     <footer>
+       <p>&copy; Colmar Academy All rights reserved</p>
+       <p><a href="#">Terms</a> <a href="#">Policy</a></p>
+     </footer>
+  </div>
   </body>
 </html>
