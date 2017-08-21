@@ -8,24 +8,25 @@ h1, h2, h3, span {
   font-weight: bold;
 }
 
-
 h1 {
   font-size: 2.7rem;
   line-height: 1.1;
-  color: #5C832F;
+  color: #5d981b;
 }
 
 h2 {
   font-size: 2.1rem;
+  color: #382513;
 }
 
 h3 {
   font-size: 1.5rem;
+  color: #382513;
 }
 
 a {
   text-decoration: none;
-  color: #5C832F;
+  color: #5d981b;
 }
 
 nav a {
@@ -34,14 +35,17 @@ nav a {
 
 @media only screen and (max-width:800px) {
   p {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 
   h3 {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
 }
 
+.box:hover{
+  background-color: #D8CAA8;
+}
 
 .wrapper {
   max-width: 74rem;
@@ -81,7 +85,7 @@ nav a {
 }
 
 #academy {
-  color: #5C832F;
+  color: #5d981b;
 }
 
 .mobile {
@@ -112,6 +116,10 @@ nav a {
     justify-content: center;
     height: 2rem;
     width: 3rem;
+  }
+
+  .mobile img:hover {
+    height: 2.5rem;
   }
 }
 
@@ -163,11 +171,11 @@ nav a {
   background-color: #382513;
   text-align: center;
   margin-top: 2rem;
-  transition: all 200ms 200ms;
+  transition: all 100ms 100ms;
 }
 
 .btn:hover{
-  background-color: #284907;
+  background-color: #5d981b;;
 }
 
 a .btn {
@@ -216,6 +224,7 @@ a .btn {
 
 .image-description h2 {
   margin: 2rem 0 1.5rem 0;
+  font-family: 'PT Serif', serif;
 }
 
 .information-container {
@@ -230,6 +239,7 @@ a .btn {
   display: flex;
   align-items: center;
   margin-bottom: 1rem;
+  padding-right: 0.5rem;
 }
 
 .img-box {
@@ -279,6 +289,8 @@ a .btn {
     flex-wrap: wrap;
     justify-content: space-around;
     margin-bottom: 1rem;
+    margin-top: 1rem;
+    padding-bottom: 0.5rem;
   }
 
   .tag-desktop {
@@ -308,7 +320,7 @@ a .btn {
   width: 100%;
   text-align: center;
   margin-bottom: 1rem;
-  color: #5C832F;
+  color: #5d981b;
 }
 
 .grid-box {
@@ -365,8 +377,15 @@ a .btn {
     padding: 1rem;
   }
 
+  .learning-list li:hover {
+    background-color: #5d981b;
+    color: white;
+  }
+
   .learning-list a {
-    color: black;
+    color: #4d3319;
+    font-size: 1.1rem;
+    font-weight: normal;
   }
 
   .learning-bg {
@@ -377,6 +396,7 @@ a .btn {
     display: block;
     margin-top: 2rem;
     margin-bottom: 1rem;
+    color: #5d981b;
 
   }
 
@@ -388,13 +408,11 @@ a .btn {
     display: flex;
     flex-direction: column;
 }
+
 #thesis-headline {
   padding-top: 2rem;
   text-align: center;
-}
-
-.thesis-bg {
-
+  color: #5d981b;
 }
 
 /*Mobile Thesis Exhibit---------------*/
@@ -410,6 +428,7 @@ a .btn {
   #thesis-headline {
     padding-top: 1.5rem;
     padding-bottom: 1rem;
+    color: #5d981b;
   }
 
   .media-container video {
