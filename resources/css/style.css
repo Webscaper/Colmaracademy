@@ -1,6 +1,7 @@
 html {
   font-size: 16px;
   font-family: 'Roboto',sans-serif;
+  color: #382513;
 }
 
 h1, h2, h3, span {
@@ -11,26 +12,23 @@ h1, h2, h3, span {
 h1 {
   font-size: 2.7rem;
   line-height: 1.1;
-  color: #5d981b;
 }
 
 h2 {
   font-size: 2.1rem;
-  color: #382513;
 }
 
 h3 {
   font-size: 1.5rem;
-  color: #382513;
 }
 
 a {
   text-decoration: none;
-  color: #5d981b;
 }
 
 nav a {
   font-weight: bold;
+  color: #5d981b;
 }
 
 @media only screen and (max-width:800px) {
@@ -132,6 +130,10 @@ nav a {
   justify-content: center;  /* This centers the "Start Learning" text in mobile view */
 }
 
+#learn {
+  color: #5d981b;
+}
+
 .bg-color {
   background-color: #D8CAA8;
 }
@@ -175,7 +177,7 @@ nav a {
 }
 
 .btn:hover{
-  background-color: #5d981b;;
+  background-color: #5d981b;
 }
 
 a .btn {
@@ -331,6 +333,10 @@ a .btn {
   margin: 1rem;
 }
 
+.grid-box:hover {
+  color: #5d981b;
+}
+
 .grid-img {
   width: 100%;
   height: auto;
@@ -407,6 +413,11 @@ a .btn {
     max-width: 40%;
     display: flex;
     flex-direction: column;
+}
+
+.thesis a {
+  text-decoration: none;
+  color: #382513;
 }
 
 #thesis-headline {
