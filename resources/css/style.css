@@ -28,7 +28,6 @@ a {
 
 nav a {
   font-weight: bold;
-  color: #5d981b;
 }
 
 @media only screen and (max-width:800px) {
@@ -67,12 +66,17 @@ nav a {
   margin-left: 1rem;
 }
 
+#campus {     /* I tried resolving this using ul:first-child but I did not manage to make it work */
+  color: #5d981b;
+}
+
 .desktop img {
   height: 2rem;
 }
 
 .desktop a:hover {
   text-decoration: underline;
+  color: #5d981b;
 }
 
 .logo {
